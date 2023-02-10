@@ -26,15 +26,15 @@ class SalesPerson
     }
 }
 class SalesManager extends SalesPerson {
-    String makePlane;
-    String takeDecision;
+    String makesPlan;
+    String takesDecision;
 
-    public SalesManager(String name, int age, String salesQty, String makePlane, String takeDecision) {
+    public SalesManager(String name, int age, String salesQty, String makesPlan, String takesDecision) {
         super(name, age, salesQty);
-        this.makePlane = makePlane;
-        this.takeDecision = takeDecision;
+        this.makesPlan = makesPlan;
+        this.takesDecision = takesDecision;
     }
     void printSalesManager(){
-        System.out.println("Sales manager name is " +name+ " his age is " +age+ " he sales " +salesQty+ " items in a day. He "+makePlane+ " " +takeDecision+  "  . ");
+        System.out.println("Sales manager name is " +name+ " his age is " +age+ " he sales " +salesQty+ " items in a day. He "+makesPlan+ " " +takesDecision+  "  . ");
     }
 }
