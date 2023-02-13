@@ -25,7 +25,7 @@ public class VehicleTest {
         honda.MakeYear();
         honda.engine.Energy();
         honda.wheelAndDoors.Door();
-        honda.wheelAndDoors.go();
+        honda.wheelAndDoors.wheel();
         accord Accord=new accord();
         Accord.flatCar();
         Accord.engine.TransformFuel();
@@ -36,7 +36,7 @@ public class VehicleTest {
         mercedes.engine.Energy();
         GClass gClass=new GClass();
         gClass.cost();
-        gClass.wheelAndDoors.go();
+        gClass.wheelAndDoors.wheel();
         System.out.println("............................");
     }
 }
@@ -90,8 +90,8 @@ class Engine{
     }
 }
 class wheelAndDoors{
-    void go(){
-        System.out.println("wheel is moving the vehicle.");
+    void wheel(){
+        System.out.println("vehicle has wheels.");
     }
     void Door(){
         System.out.println("vehicle has doors");
